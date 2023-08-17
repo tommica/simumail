@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SimuMail - Email Inbox</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+
+        <style>
+main {
+    --block-spacing-vertical: 0 !important;
+}
+
+    nav {
+        background: #cecece;
+    }
+
+@media(min-width: 992px) {
+    .sidebar {
+        width: 30%;
+    }
+
+    .mail-wrapper {
+        width: 70%;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <main class="container-fluid">
+            <nav>
+                <ul>
+                    <li><strong>SimuMail</strong></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#" role="button">Button</a></li>
+                </ul>
+            </nav>
+
+            <div class="grid">
+                <div class="sidebar">
+                    <div class="email-lister">list of emails</div>
+
+                    <div class="pagination">
+                        pagination
+                    </div>
+                </div>
+                <div class="mail-wrapper">
+                    <div class="mail-details">
+                        details
+                    </div>
+
+                    <div class="mail-viewer">
+                        viewer
+                        <iframe src=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
+
