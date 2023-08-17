@@ -1,5 +1,5 @@
 <?php
 
-use VendorName\Skeleton\Tests\TestCase;
+use Tommica\SimuMail\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Tommica\SimuMail\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class SimuMailCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'simumail';
 
     public $description = 'My command';
 
